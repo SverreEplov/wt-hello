@@ -1,0 +1,12 @@
+[requires]
+wt/4.0.2@awion/stable
+
+[generators]
+cmake
+
+[options]
+
+[imports]
+bin, *.dll -> ./bin 
+lib, *.dylib* -> ./lib
+lib, *,so* -> ./lib
