@@ -21,12 +21,12 @@ conan_cmake_run(CONANFILE conanfile.txt
         BUILD missing)
 ################## automatically execute conan install ##################################################
 
-if (APPLE)
-    set(CMAKE_INSTALL_RPATH "@executable_path/../lib")
-else()
-    set(CMAKE_INSTALL_RPATH "$ORIGIN/../lib")
-endif()
-SET(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
+#if (APPLE)
+#    set(CMAKE_INSTALL_RPATH "@executable_path/../lib")
+#else()
+#    set(CMAKE_INSTALL_RPATH "$ORIGIN/../lib")
+#endif()
+#SET(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
 
 set(CMAKE_CXX_STANDARD 17)
 

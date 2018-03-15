@@ -9,4 +9,4 @@ cmake
 [imports]
 bin, *.dll -> ./bin 
 lib, *.dylib* -> ./lib
-lib, *,so* -> ./lib
+lib, *.so* -> ./lib
